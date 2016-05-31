@@ -1,0 +1,4 @@
+#!/bin/sh
+perl get_blast_evalue.pl gene_list_20160327_blast_ath.txt >gene_list_20160327_blast_ath_easy.txt
+perl get_blast_evalue.pl gene_list_20160327_blast_muskmelon.txt >gene_list_20160327_blast_muskmelon_easy.txt
+perl get_blast_evalue.pl gene_list_20160327_blast_rice.txt >gene_list_20160327_blast_rice_easy.txt
